@@ -1,5 +1,5 @@
 import streamlit as st
-import file
+import file_
 import sidebar
 import text
 import tweet
@@ -11,7 +11,7 @@ import Reddit
 page = sidebar.show()
 
 if page=="File":
-    file.renderPage()
+    file_.renderPage()
 elif page=="Text":
     text.renderPage()
 elif page=="Tweet":
