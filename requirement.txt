@@ -1,0 +1,7 @@
+streamlit
+streamlit-option-menu
+plotly
+praw
+textblob
+nltk
+matplotlib
